@@ -4,70 +4,159 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Politique de confidentialité - Kairos Jiu Jitsu</title>
+  <style>
+    body {
+      font-family: sans-serif;
+      max-width: 800px;
+      margin: auto;
+      padding: 2rem;
+    }
+    .lang-content {
+      display: none;
+    }
+    .lang-content.active {
+      display: block;
+    }
+    .lang-switcher {
+      margin-bottom: 2rem;
+    }
+    button {
+      margin-right: 10px;
+      padding: 0.4rem 0.8rem;
+      font-size: 1rem;
+      cursor: pointer;
+    }
+  </style>
 </head>
-<body style="font-family: sans-serif; max-width: 800px; margin: auto; padding: 2rem;">
-  <h1>Politique de confidentialité – Kairos Jiu Jitsu</h1>
-  <p><strong>Dernière mise à jour :</strong> 22 juillet 2025</p>
+<body>
+  <h1>Kairos Jiu Jitsu – Politique de confidentialité / Privacy Policy</h1>
 
-  <h2>1. Introduction</h2>
-  <p>L'application Kairos Jiu Jitsu respecte votre vie privée. Cette politique de confidentialité explique quelles données sont collectées, pourquoi, et comment elles sont utilisées et protégées.</p>
+  <div class="lang-switcher">
+    <button onclick="switchLanguage('fr')">🇫🇷 Français</button>
+    <button onclick="switchLanguage('en')">🇬🇧 English</button>
+  </div>
 
-  <h2>2. Données personnelles collectées</h2>
-  <p>Nous collectons les informations suivantes pour permettre la gestion des adhérents du club :</p>
-  <ul>
-    <li>Nom et prénom</li>
-    <li>Adresse email</li>
-    <li>Adresse postale</li>
-    <li>Date de naissance</li>
-    <li>Numéro de téléphone</li>
-    <li>Grade(s) de Jiu-Jitsu Brésilien (JJB)</li>
-    <li>Historique des présences</li>
-    <li>Notes personnelles</li>
-  </ul>
-  <p>Ces données sont collectées lors de l’inscription, des mises à jour de profil ou par le personnel du club.</p>
+  <!-- FRANÇAIS -->
+  <div id="fr" class="lang-content active">
+    <p><strong>Dernière mise à jour :</strong> 22 juillet 2025</p>
 
-  <h2>3. Utilisation des données</h2>
-  <p>Les données sont utilisées uniquement pour les finalités suivantes :</p>
-  <ul>
-    <li>Gestion des inscriptions et profils adhérents</li>
-    <li>Suivi des grades et de la progression</li>
-    <li>Suivi de l’assiduité (présences aux entraînements)</li>
-    <li>Communication entre le club et les adhérents</li>
-    <li>Statistiques internes pour améliorer le fonctionnement du club</li>
-  </ul>
+    <h2>1. Introduction</h2>
+    <p>L'application Kairos Jiu Jitsu respecte votre vie privée. Cette politique de confidentialité explique quelles données sont collectées, pourquoi, et comment elles sont utilisées et protégées.</p>
 
-  <h2>4. Stockage et sécurité des données</h2>
-  <p>Les données sont stockées sur Firebase (Google Cloud Platform), un service sécurisé qui respecte les normes de protection des données (ISO/IEC 27001, RGPD, etc.).</p>
-  <p>Nous mettons en œuvre des mesures de sécurité techniques et organisationnelles pour protéger vos informations contre l’accès non autorisé, la perte ou la destruction.</p>
+    <h2>2. Données personnelles collectées</h2>
+    <ul>
+      <li>Nom et prénom</li>
+      <li>Adresse email</li>
+      <li>Adresse postale</li>
+      <li>Date de naissance</li>
+      <li>Numéro de téléphone</li>
+      <li>Grade de Jiu-Jitsu Brésilien (JJB)</li>
+      <li>Historique des grades</li>
+      <li>Historique des présences</li>
+      <li>Notes internes</li>
+    </ul>
 
-  <h2>5. Services tiers utilisés</h2>
-  <ul>
-    <li><strong>Firebase (Google)</strong> : Authentification, base de données Firestore, stockage sécurisé</li>
-    <li><strong>Google Analytics for Firebase</strong> : Suivi anonyme de l’utilisation de l’application</li>
-  </ul>
-  <p>Ces services peuvent collecter des données anonymisées pour améliorer l’expérience utilisateur.</p>
+    <h2>3. Utilisation</h2>
+    <ul>
+      <li>Gestion des adhérents</li>
+      <li>Suivi des grades et présences</li>
+      <li>Communication interne</li>
+      <li>Statistiques internes</li>
+    </ul>
 
-  <h2>6. Partage des données</h2>
-  <p>Les données personnelles ne sont jamais vendues ni partagées avec des tiers à des fins commerciales.</p>
-  <p>Elles sont accessibles uniquement par les administrateurs du club Kairos Jiu Jitsu.</p>
+    <h2>4. Sécurité et stockage</h2>
+    <p>Les données sont stockées sur Firebase (Google Cloud) et sécurisées selon les standards (ISO/IEC 27001, RGPD).</p>
 
-  <h2>7. Durée de conservation</h2>
-  <p>Les données sont conservées pendant toute la durée d'inscription au club, puis archivées ou supprimées dans un délai raisonnable à la fin de la relation avec l’utilisateur, sauf obligation légale contraire.</p>
+    <h2>5. Services tiers</h2>
+    <ul>
+      <li>Firebase : Authentification, base de données</li>
+      <li>Google Analytics for Firebase : Statistiques anonymes</li>
+    </ul>
 
-  <h2>8. Droits de l’utilisateur</h2>
-  <p>Conformément au RGPD, vous disposez des droits suivants :</p>
-  <ul>
-    <li>Accès à vos données</li>
-    <li>Rectification ou suppression</li>
-    <li>Limitation ou opposition au traitement</li>
-    <li>Portabilité de vos données</li>
-  </ul>
-  <p>Vous pouvez exercer ces droits en contactant : 📧 <a href="mailto:jjbkairos@gmail.com">jjbkairos@gmail.com</a></p>
+    <h2>6. Partage des données</h2>
+    <p>Les données ne sont jamais vendues ni partagées hors du club.</p>
 
-  <h2>9. Modifications</h2>
-  <p>Cette politique peut être mise à jour à tout moment. Vous serez notifié(e) en cas de changements significatifs.</p>
+    <h2>7. Conservation</h2>
+    <p>Durée d'inscription + période raisonnable post-club.</p>
 
-  <h2>10. Contact</h2>
-  <p>Pour toute question ou réclamation : 📩 <a href="mailto:jjbkairos@gmail.com">jjbkairos@gmail.com</a></p>
+    <h2>8. Vos droits</h2>
+    <ul>
+      <li>Accès, rectification, suppression</li>
+      <li>Portabilité</li>
+      <li>Opposition au traitement</li>
+    </ul>
+    <p>Contact : <a href="mailto:jjbkairos@gmail.com">jjbkairos@gmail.com</a></p>
+
+    <h2>9. Modifications</h2>
+    <p>Cette politique peut être modifiée à tout moment.</p>
+
+    <h2>10. Contact</h2>
+    <p>📩 <a href="mailto:jjbkairos@gmail.com">jjbkairos@gmail.com</a></p>
+  </div>
+
+  <!-- ENGLISH -->
+  <div id="en" class="lang-content">
+    <p><strong>Last updated:</strong> July 22, 2025</p>
+
+    <h2>1. Introduction</h2>
+    <p>The Kairos Jiu Jitsu app respects your privacy. This policy explains what data is collected, why, and how it is used and protected.</p>
+
+    <h2>2. Personal Data Collected</h2>
+    <ul>
+      <li>Full name</li>
+      <li>Email address</li>
+      <li>Postal address</li>
+      <li>Date of birth</li>
+      <li>Phone number</li>
+      <li>Current BJJ belt</li>
+      <li>Belt history</li>
+      <li>Attendance history</li>
+      <li>Internal notes</li>
+    </ul>
+
+    <h2>3. Usage</h2>
+    <ul>
+      <li>Member management</li>
+      <li>Progress & attendance tracking</li>
+      <li>Internal communication</li>
+      <li>Internal statistics</li>
+    </ul>
+
+    <h2>4. Security and Storage</h2>
+    <p>Data is stored on Firebase (Google Cloud), complying with ISO/IEC 27001 and GDPR.</p>
+
+    <h2>5. Third-Party Services</h2>
+    <ul>
+      <li>Firebase: Authentication, Firestore</li>
+      <li>Google Analytics for Firebase: Anonymous usage tracking</li>
+    </ul>
+
+    <h2>6. Data Sharing</h2>
+    <p>Data is never sold or shared outside the Kairos club team.</p>
+
+    <h2>7. Retention</h2>
+    <p>Data is kept during club membership and deleted within a reasonable period after.</p>
+
+    <h2>8. Your Rights</h2>
+    <ul>
+      <li>Access, correction, deletion</li>
+      <li>Portability</li>
+      <li>Objection to processing</li>
+    </ul>
+    <p>Contact: <a href="mailto:jjbkairos@gmail.com">jjbkairos@gmail.com</a></p>
+
+    <h2>9. Changes</h2>
+    <p>This policy may be updated at any time.</p>
+
+    <h2>10. Contact</h2>
+    <p>📩 <a href="mailto:jjbkairos@gmail.com">jjbkairos@gmail.com</a></p>
+  </div>
+
+  <script>
+    function switchLanguage(lang) {
+      document.querySelectorAll('.lang-content').forEach(div => div.classList.remove('active'));
+      document.getElementById(lang).classList.add('active');
+    }
+  </script>
 </body>
 </html>
